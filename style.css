@@ -1,0 +1,92 @@
+@import url('http://fonts.cdnfonts.com/css/akira-expanded');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+/* Page 1 */
+
+#page1 nav{
+    height: 18.2vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nav-content{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 49px;
+}
+
+nav .nav-content .logo{
+    font-family: 'Jumper PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 20px;
+}
+
+nav .nav-content span{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 71px;
+}
+
+.content .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .info h1{
+    font-family: 'Akira Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 104px;
+    letter-spacing: 0.04em;
+    color: #0A100D;
+    text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.content .info button{
+    width: 245px;
+    height: 38px;
+    left: 70px;
+    top: 672px;
+    background: #000000;
+    border-radius: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
